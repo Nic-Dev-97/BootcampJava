@@ -17,7 +17,6 @@ public class Main {
 
         User usuario = new User("Nicolas Bonfim", "067-8", "1021", 237.0);
 
-
         String numeroConta = obterNumeroConta(scanner);
 
         if (numeroConta.equals(usuario.getNumeroConta())) {
